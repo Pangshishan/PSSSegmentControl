@@ -35,7 +35,7 @@ typedef void(^PSSButtonBlock)(NSInteger index);
 @end
 ```
 ## 使用方式
-```
+```Objective-C
 PSSSegmentControl *segment = [[PSSSegmentControl alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 50) titleArray:@[@"11111", @"222222", @"33333"]];
     segment.backgroundColor = [UIColor blackColor]; // 控制底部线条的颜色
     segment.lineWidth = 100;
