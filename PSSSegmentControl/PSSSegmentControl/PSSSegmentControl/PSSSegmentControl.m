@@ -124,13 +124,20 @@
     if (selectedIndex >= _titleArray.count) {
         return;
     }
-    _selectedIndex = selectedIndex;
-    [self selectButtonColorWithIndex:_selectedIndex];
+    if (selectedIndex == _selectedIndex) {
+        return;
+    }
+    [self selectButtonColorWithIndex:selectedIndex];
 }
 - (void)setLabelFont:(UIFont *)labelFont
 {
     _labelFont = labelFont;
     [self selectButtonColorWithIndex:_selectedIndex];
+}
+- (void)setBottomLineColor:(UIColor *)bottomLineColor
+{
+    _bottomLineColor = bottomLineColor;
+    self.backgroundColor = bottomLineColor;
 }
 
 /*

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65B7E371EC0191500DE6594 /* PSSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B7E361EC0191500DE6594 /* PSSSegmentControl.m */; };
 		B689986E1CEF393800EB8A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B689986D1CEF393800EB8A42 /* main.m */; };
 		B68998711CEF393800EB8A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998701CEF393800EB8A42 /* AppDelegate.m */; };
 		B68998741CEF393800EB8A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998731CEF393800EB8A42 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		B689987C1CEF393900EB8A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B689987A1CEF393900EB8A42 /* LaunchScreen.storyboard */; };
 		B68998871CEF393900EB8A42 /* PSSSegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998861CEF393900EB8A42 /* PSSSegmentControlTests.m */; };
 		B68998921CEF393900EB8A42 /* PSSSegmentControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998911CEF393900EB8A42 /* PSSSegmentControlUITests.m */; };
-		B68998A21CEF397100EB8A42 /* PSSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998A11CEF397100EB8A42 /* PSSSegmentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B65B7E351EC0191500DE6594 /* PSSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSSegmentControl.h; sourceTree = "<group>"; };
+		B65B7E361EC0191500DE6594 /* PSSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSSegmentControl.m; sourceTree = "<group>"; };
 		B68998691CEF393800EB8A42 /* PSSSegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSSegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B689986D1CEF393800EB8A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B689986F1CEF393800EB8A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		B689988D1CEF393900EB8A42 /* PSSSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSSSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68998911CEF393900EB8A42 /* PSSSegmentControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSSSegmentControlUITests.m; sourceTree = "<group>"; };
 		B68998931CEF393900EB8A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B68998A01CEF397100EB8A42 /* PSSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSSegmentControl.h; sourceTree = "<group>"; };
-		B68998A11CEF397100EB8A42 /* PSSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSSegmentControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		B689989F1CEF395600EB8A42 /* PSSSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				B68998A01CEF397100EB8A42 /* PSSSegmentControl.h */,
-				B68998A11CEF397100EB8A42 /* PSSSegmentControl.m */,
+				B65B7E351EC0191500DE6594 /* PSSSegmentControl.h */,
+				B65B7E361EC0191500DE6594 /* PSSSegmentControl.m */,
 			);
 			path = PSSSegmentControl;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B68998A21CEF397100EB8A42 /* PSSSegmentControl.m in Sources */,
+				B65B7E371EC0191500DE6594 /* PSSSegmentControl.m in Sources */,
 				B68998741CEF393800EB8A42 /* ViewController.m in Sources */,
 				B68998711CEF393800EB8A42 /* AppDelegate.m in Sources */,
 				B689986E1CEF393800EB8A42 /* main.m in Sources */,
@@ -512,6 +512,7 @@
 				B68998981CEF393900EB8A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68998991CEF393900EB8A42 /* Build configuration list for PBXNativeTarget "PSSSegmentControlTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				B689989B1CEF393900EB8A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B689989C1CEF393900EB8A42 /* Build configuration list for PBXNativeTarget "PSSSegmentControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				B689989E1CEF393900EB8A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
