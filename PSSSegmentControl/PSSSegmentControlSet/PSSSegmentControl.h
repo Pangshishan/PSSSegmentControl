@@ -52,6 +52,7 @@ typedef void(^PSSButtonBlock)(NSInteger index);
 @property (nonatomic, copy) PSSButtonBlock buttonBlock;
 - (void)setButtonBlock:(PSSButtonBlock)buttonBlock;
 
+///
 - (instancetype)initWithFrame:(CGRect)frame
                    titleArray:(NSArray *)titleArray;
 

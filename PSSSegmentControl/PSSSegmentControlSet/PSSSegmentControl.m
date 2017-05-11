@@ -17,7 +17,6 @@
 
 @implementation PSSSegmentControl
 
-
 - (instancetype)initWithFrame:(CGRect)frame
                    titleArray:(NSArray *)titleArray
 {

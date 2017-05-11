@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B65B7E371EC0191500DE6594 /* PSSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B7E361EC0191500DE6594 /* PSSSegmentControl.m */; };
+		B66321CF1EC46C8F005651F3 /* PSSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B66321CE1EC46C8F005651F3 /* PSSSegmentControl.m */; };
 		B689986E1CEF393800EB8A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B689986D1CEF393800EB8A42 /* main.m */; };
 		B68998711CEF393800EB8A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998701CEF393800EB8A42 /* AppDelegate.m */; };
 		B68998741CEF393800EB8A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68998731CEF393800EB8A42 /* ViewController.m */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B65B7E351EC0191500DE6594 /* PSSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSSegmentControl.h; sourceTree = "<group>"; };
-		B65B7E361EC0191500DE6594 /* PSSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSSegmentControl.m; sourceTree = "<group>"; };
+		B66321CD1EC46C8F005651F3 /* PSSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSSegmentControl.h; sourceTree = "<group>"; };
+		B66321CE1EC46C8F005651F3 /* PSSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSSegmentControl.m; sourceTree = "<group>"; };
 		B68998691CEF393800EB8A42 /* PSSSegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSSegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B689986D1CEF393800EB8A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B689986F1CEF393800EB8A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B66321CC1EC46C8F005651F3 /* PSSSegmentControlSet */ = {
+			isa = PBXGroup;
+			children = (
+				B66321CD1EC46C8F005651F3 /* PSSSegmentControl.h */,
+				B66321CE1EC46C8F005651F3 /* PSSSegmentControl.m */,
+			);
+			path = PSSSegmentControlSet;
+			sourceTree = SOURCE_ROOT;
+		};
 		B68998601CEF393800EB8A42 = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +113,11 @@
 		B689986B1CEF393800EB8A42 /* PSSSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				B689989F1CEF395600EB8A42 /* PSSSegmentControl */,
 				B689986F1CEF393800EB8A42 /* AppDelegate.h */,
 				B68998701CEF393800EB8A42 /* AppDelegate.m */,
 				B68998721CEF393800EB8A42 /* ViewController.h */,
 				B68998731CEF393800EB8A42 /* ViewController.m */,
+				B66321CC1EC46C8F005651F3 /* PSSSegmentControlSet */,
 				B68998751CEF393800EB8A42 /* Main.storyboard */,
 				B68998781CEF393900EB8A42 /* Assets.xcassets */,
 				B689987A1CEF393900EB8A42 /* LaunchScreen.storyboard */,
@@ -142,15 +151,6 @@
 				B68998931CEF393900EB8A42 /* Info.plist */,
 			);
 			path = PSSSegmentControlUITests;
-			sourceTree = "<group>";
-		};
-		B689989F1CEF395600EB8A42 /* PSSSegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				B65B7E351EC0191500DE6594 /* PSSSegmentControl.h */,
-				B65B7E361EC0191500DE6594 /* PSSSegmentControl.m */,
-			);
-			path = PSSSegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65B7E371EC0191500DE6594 /* PSSSegmentControl.m in Sources */,
+				B66321CF1EC46C8F005651F3 /* PSSSegmentControl.m in Sources */,
 				B68998741CEF393800EB8A42 /* ViewController.m in Sources */,
 				B68998711CEF393800EB8A42 /* AppDelegate.m in Sources */,
 				B689986E1CEF393800EB8A42 /* main.m in Sources */,
@@ -428,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PSSSegmentControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PSS.PSSSegmentControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PSSSegmentControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PSS.PSSSegmentControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
