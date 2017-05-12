@@ -1,4 +1,4 @@
-@version = "0.0.1"
+@version = "0.0.2"
 
 Pod::Spec.new do |s|
   s.name          = "PSSSegmentControl"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author        = { "Pangshishan" => "Pangshishan1@163.com" }
   s.ios.deployment_target   = '8.0'
   s.source        = { :git => "https://github.com/Pangshishan/PSSSegmentControl.git", :tag => "v#{s.version}" }
-  s.source_files  = 'PSSSegmentControl/PSSSegmentControlSet/**/*.{h,m}'
+  s.source_files  = 'PSSSegmentControl/PSSSegmentControlSet/*.{h,m}'
   s.requires_arc  = true
   s.framework     = "UIKit"
 end
